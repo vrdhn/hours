@@ -10,7 +10,9 @@ use std::path::PathBuf;
 use structopt::StructOpt;
 
 mod cmd;
+mod color;
 mod top;
+
 use cmd::Cmd;
 use top::Top;
 
@@ -39,7 +41,7 @@ fn main() {
         let top: Top = serde_json::from_reader(BufReader::new(opened_file)).unwrap();
         top
     } else {
-        Top {}
+        Top::new()
     };
 
     // default is 'info'
