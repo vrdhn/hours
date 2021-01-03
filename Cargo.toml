@@ -1,0 +1,15 @@
+[package]
+name = "hours"
+version = "0.1.0"
+authors = ["Vardhan <vrdhn0@gmail.com>"]
+edition = "2018"
+
+
+[dependencies]
+structopt =  { version = "*" }
+serde = { version = "*" }
+serde_json =  { version = "*" }
+serde_yaml =  { version = "*" }
+serde_derive =  { version = "*" }
+shellexpand = { version = "*" }
+ansi_term = { version = "*" }
