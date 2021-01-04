@@ -4,6 +4,10 @@ extern crate serde;
 extern crate serde_json;
 extern crate structopt;
 
+extern crate strum;
+#[macro_use]
+extern crate strum_macros;
+
 use std::fs::File;
 use std::io::BufReader;
 use std::path::PathBuf;

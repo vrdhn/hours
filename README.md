@@ -16,6 +16,13 @@
 ## list -- list tasks
 
 	hours list
+	hours list -a
+
+
+## done -- mark task done
+
+	hours done 123
+
 
 ## version -- show version
 

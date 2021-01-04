@@ -13,3 +13,5 @@ serde_yaml =  { version = "*" }
 serde_derive =  { version = "*" }
 shellexpand = { version = "*" }
 ansi_term = { version = "*" }
+strum = { version = "*" }
+strum_macros  = { version = "*" }
